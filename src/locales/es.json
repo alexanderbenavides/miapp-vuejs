@@ -1,0 +1,155 @@
+{
+  "about": "Acerca de mí",
+  "summary": "Egresado de la carrera de Ingeniería de sistemas empresariales de la Universidad Científica del Sur. Actualmente laborando en el Centro de Innovación y Desarrollo Emprendedor de la Pontificia Universidad Católica del Perú.",
+  "home": "Inicio",
+  "courses": "Cursos",
+  "view_profile": "Ver perfil",
+  "information": "Información básica",
+  "projects": "Proyectos",
+  "achievements": "Logros",
+  "certifications": "Certificados",  
+  "languages": "Idiomas",
+  "not-found": "Página no encontrada",
+  "experience": "Experiencia",
+  "experiences":[
+    {
+      "logo":"equipu.png",
+      "cargo":"Practicante Profesional de Sistemas",
+      "empresa":"EQUIPU Red de Emprendedores -PUCP",
+      "ubicacion":"Provincia de San Miguel-Lima",
+      "periodo":"ago. de 2019 - actualidad",
+      "descripcion":"Practicante Profesional de Ingeniería de Sistemas Empresariales en el Centro de Innovación y Desarrollo Emprendedor de la Pontificia Universidad Católica del Perú."
+    },
+    {
+      "logo":"check.png",
+      "cargo":"Practicante Pre-Profesional de Sistemas",
+      "empresa":"CHECKSABE S.A.C",
+      "ubicacion":"Provincia Lima-Perú",
+      "periodo":"sept. de 2018 - jun. de 2019",
+      "descripcion": "Practicante pre-profesional de ingeniería de sistemas empresariales en CHECKSABE S.A.C, Start Up que ofrece cursos digitales para los colegios de educación secundaria."
+    }
+  ],
+  "interests" : "Intereses",
+  "english" : "Inglés",
+  "spanish" : "Español",
+  "jobs_interests": [
+    {"item": "Tecnología"},
+    {"item": "Emprendimiento"},
+    {"item": "Inteligencia artificial"},
+    {"item": "Programación Back End"},
+    {"item": "Programación Front End"}
+],
+"profession":"Ingeniería de sistemas",
+"city":"Lima-Perú",
+"education": "Eduación",
+"list_education": [
+  {
+    "logo": "ucsur.png",
+    "studies_center": "Universidad Científica del Sur",
+    "description": "Egresado de Ingeniería de sistemas empresariales",
+    "year_start_end": "2014-2019"      
+  },
+  {
+    "logo": "icpna.png",
+    "studies_center": "Instituto Cultural Peruano Norteamericano",
+    "description": "Estudiante de idiomas extranjeros",
+    "year_start_end": "2017-Continuando"       
+  },
+  {
+    "logo": "colegio_mayor.png",
+    "studies_center": "Colegio Mayor de Amazonas",
+    "description": "Educación secundaria",
+    "year_start_end": "Finalizado el 2013"     
+  }
+],
+"list_certifications":[
+  {
+    "tittle":"Certificado de Nodejs",
+    "logo":"udemy.jpg",
+    "company":"Udemy",
+    "date_expedition":"Expedición: oct. de 2019",
+    "id_credential":"ID de la credencial UC-PEKH12KH",
+    "see_credential":"Ver credencial",
+    "link_cedential":"https://udemy-certificate.s3.amazonaws.com/pdf/UC-PEKH12KH.pdf"
+  },
+  {
+    "tittle":"Certificado de base de datos MYSQL",
+    "logo":"udemy.jpg",
+    "company":"Udemy",
+    "date_expedition":"Expedición: ago. de 2019",
+    "id_credential":"ID de la credencial UC-23R7646X",
+    "see_credential":"Ver credencial",
+    "link_cedential":"https://udemy-certificate.s3.amazonaws.com/pdf/UC-23R764BX.pdf"
+  },
+  {
+    "tittle":"Certificado de desarrollo de aplicaciones front-end con Javascript y Reactjs",
+    "logo":"codecademy.png",
+    "company":"Codecademy",
+    "date_expedition":"Expedición: mar. de 2019",
+    "id_credential":"ID de la credencial jsvt1lgy",
+    "see_credential":"Ver credencial",
+    "link_cedential":"https://pdf.credential.net/jsvt1lgy.pdf"
+  },  
+  {
+    "tittle":"Certificado de inglés intermedio",
+    "logo":"icpna.png",
+    "company":"Instituto Cultural Peruano Norteamericano",
+    "date_expedition":"Expedición: ene. de 2019",
+    "id_credential":"ID de la credencial 1908-01245",
+    "see_credential":"Ver credencial",
+    "link_cedential":"https://s3.amazonaws.com/accredible_temp_credential_images/1571311892202145.jpg"
+  }    
+],
+"foreign_language":[
+  {
+    "tittle":"Inglés-Michigan Language Assessment",
+    "logo":"met.jpeg",
+    "company":"Universidad de Michigan",
+    "date_expedition":"Fecha del test: 12/21/2018",
+    "level_got":"Nivel : B1",
+    "see_credential":"Ver credencial",
+    "link_cedential":"https://s3.us-east-1.amazonaws.com/accredible_temp_credential_images/15739417622770959920607008624101.jpeg"
+  }  
+],
+"list_of_achievements":[
+  {
+    "tittle":"Viveplan",
+    "description":"Plataforma web que te permite planificar tu viaje de forma personalizada y que cuenta con una red social de viajeros para que puedan compartir sus experiencias.",
+    "logo":"viveplan.jpg",
+    "company":"jul. de 2016-Universidad Científica del Sur.",
+    "prize":"Reconocimiento - Segundo puesto:Participación y mejor proyecto en el 1° Concurso de Emprendimiento Sostenible promoviendo iniciativas socialmente responsables."
+  }  
+],
+"list_of_projects":[
+  {
+    "tittle":"Problema de colas en Nodejs",
+    "logo":"nodejs.png",
+    "status":"En desarrollo",
+    "has_video":1,
+    "description":"-",
+    "video_demo":[
+      {
+        "see_video":"Ver video",
+        "link_video":""
+      }
+    ],
+    "see_demo":"Ver demo",
+    "link_demo":"https://sockets-a.herokuapp.com"    
+  },
+  {
+    "tittle":"Chat en Nodejs",
+    "logo":"nodejs.png",
+    "status":"En desarrollo",
+    "has_video":1,
+    "description":"-",
+    "video_demo":[
+      {
+        "see_video":"Ver video",
+        "link_video":""
+      }
+    ],
+    "see_demo":"Ver demo",
+    "link_demo":"https://chat-alexander.herokuapp.com"    
+  }
+]
+}

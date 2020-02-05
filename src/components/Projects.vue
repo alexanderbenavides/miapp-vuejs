@@ -27,12 +27,6 @@
                  )
 
         a.btn-pagination#btn_next(@click="nextPage") Siguiente&raquo;
-       pre {{new_calendar_data}}
-       pre {{marked_dates[0].dates}}
-       //- pre {{calendarData}}
-       .container-days
-         ul 
-          li(v-for="days in selected_days"  v-if="days") {{days}}
         
 
     

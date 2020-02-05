@@ -1,5 +1,7 @@
 <template lang="pug">
   div.main-container-home
+    .container-view(style="padding: 1rem;" )
+      span.button-page(@click="showResults") Mostrar
     .container-view
       h3 {{ $t('about') }}
       p {{ $t('summary') }}
@@ -34,6 +36,9 @@ export default {
     }
   },
   methods: {
+    showResults(){
+      console.log("Holaa")
+    }
   },
   mounted(){
     

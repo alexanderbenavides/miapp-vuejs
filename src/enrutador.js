@@ -7,13 +7,13 @@ import Projects from './components/Projects.vue';
 import Achievements from './components/Achievements.vue';
 import Certifications from './components/Certifications.vue';
 import Languages from './components/Languages.vue';
-// import i18n from './i18n';
+import i18n from './i18n';
 
 Vue.use(VueRouter);
 const rutas = [
   {
     path: '/',
-    // redirect: `/${i18n.locale}`
+    redirect: `/${i18n.locale}`
   },
  {
   path: '/:lang',

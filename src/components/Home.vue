@@ -3,8 +3,8 @@
     .container-view(style="padding: 1rem;" )
       span.button-page(@click="showResults") Mostrar
     .container-view
-      h3 {{ $t('about') }}
-      p {{ $t('summary') }}
+      h3 {{ about }}
+      p {{ summary }}
     .container-view
       h4 {{ $t('experience') }}
       .home-grid-experience(v-for="experience in $t('experiences')" )
@@ -33,6 +33,9 @@ export default {
   },
   data(){
     return{
+      about: "Acerca de mí",
+      summary: "Egresado de la carrera de Ingeniería de sistemas empresariales de la Universidad Científica del Sur. Actualmente laborando en el Centro de Innovación y Desarrollo Emprendedor de la Pontificia Universidad Católica del Perú.",
+
     }
   },
   methods: {

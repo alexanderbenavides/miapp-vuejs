@@ -40,11 +40,28 @@ export default {
   },
   methods: {
     showResults(){
-      console.log("Holaa")
-    }
+
+     const nums = [2,3,4,5,6,6,7,7,7]
+     const max = Math.max.apply(null, nums)
+
+      nums.map((val,i) => {
+
+        if(val === max) {
+            nums.splice(i, i)
+
+        }
+
+      })
+      
+
+      const secondMax = Math.max.apply(null, nums)
+      console.log(secondMax)
+
+
+
+  }
   },
-  mounted(){
-    
+  mounted(){  
   }
 };
 </script>

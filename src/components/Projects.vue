@@ -1,5 +1,6 @@
 <template lang="pug">
   .main-container-projects
+    Table
     //Acordeón
     Acccordion
     // Buscar en una tabla
@@ -27,6 +28,7 @@
                  )
 
         a.btn-pagination#btn_next(@click="nextPage") Siguiente&raquo;
+
         
 
     
@@ -63,7 +65,7 @@ import Acccordion from './projects/Accordion.vue';
 import TodoList from './projects/Todo-list.vue';
 import searchTable from './projects/Search-table.vue';
 import { FunctionalCalendar } from 'vue-functional-calendar';
-
+import Table from './projects/Table-list'
 export default {
   name: 'projects',
     data() {
@@ -132,7 +134,8 @@ export default {
     Acccordion,
     FunctionalCalendar,
     TodoList,
-    searchTable
+    searchTable,
+    Table
   },
   mounted(){
     this.changePage(1);
